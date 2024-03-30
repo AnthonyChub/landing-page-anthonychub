@@ -7,21 +7,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <style>
-        .container {
+        .hero {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            width: 100%;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero img {
             max-width: 100%;
-        }
-
-        .container img {
-            width: 100%;
             height: auto;
-            margin-right: 5px;
+            margin-bottom: 20px;
         }
 
-        .container p {
+        .primeiro-text {
             font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .textinho {
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .precos-com-etiqueta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .precos-com-etiqueta img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .saiba-mais-button,
+        .cta-button {
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -41,7 +70,7 @@
         </div>
     </section>
     <section>
-        <img src="./IMAGENS/iphones.png">
+        <img src="./IMAGENS/iphones.png" style="max-width: 100%; height: auto;">
     </section>
     <section class="precos-com-etiqueta">
         <p class="textinho">Uma Landing Page eficaz é muito mais do que apenas uma página da web. É a porta de entrada para o seu <span>sucesso online.</span> <br/>
@@ -51,10 +80,10 @@
             
             Com minha experiência em design e desenvolvimento web, estou aqui para criar para você uma Landing Page personalizada, feita sob medida para as necessidades do seu negócio. Desde a concepção até a implementação, eu me comprometo a fornecer uma solução que não apenas impressione visualmente, mas também <span>impulsione suas conversões.</span></p>
 
-        <img src="./IMAGENS/ultima-imagem.png">
+        <img src="./IMAGENS/ultima-imagem.png" style="max-width: 100%; height: auto;">
     </section>
     <a href="https://wa.me/5513991992486/?text=Gostaria%20de%20saber%20mais%20sobre%20Landing%20Pages">
-    <img src="./IMAGENS/CTA.png">
+    <img class="cta-button" src="./IMAGENS/CTA.png">
 </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
